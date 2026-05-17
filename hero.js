@@ -272,5 +272,6 @@
     {
       name: 'Largo',
       img: 'pub/heroes/largo.png',
+      roles: '3'
     }
     ]
