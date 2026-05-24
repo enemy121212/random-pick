@@ -10,6 +10,7 @@
 
 .container {
   display: flex;
+  gap : 15px;
   justify-content: space-between; 
   width: 100%;
 }
@@ -19,5 +20,5 @@
   background-color: lightblue;
   text-align: center;
   padding: 20px;
-  
+  border-radius: 5%;
 }
