@@ -26,8 +26,6 @@ const dotaHeroes = [
   "Weaver", "Windranger", "Winter Wyvern", "Witch Doctor", "Wraith King", "Zeus"
 ]
   
-    
-
     function pickRandomHero() {
         const randomIndex = Math.floor(Math.random() * dotaHeroes.length)
         const randomHero = dotaHeroes[randomIndex]
