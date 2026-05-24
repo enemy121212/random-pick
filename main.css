@@ -1,0 +1,11 @@
+.hero-box {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+#heroImageContainer img {
+    border-radius: 8px;
+}
