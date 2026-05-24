@@ -8,13 +8,6 @@
   text-align: center;
 }
 
-.menu {
-  display: flex;
-  gap : 15px;
-  justify-content: space-between; 
-  width: 100%;
-}
-
 .cell {
   width: 30%;
   background-color: lightblue;
@@ -26,7 +19,7 @@
 .menu {
     display: flex;
     justify-content: space-between;
-    gap: 15px;
+    gap: 30px;
     margin: 20px;
 }
 
