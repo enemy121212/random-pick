@@ -1,4 +1,4 @@
-const hero_list=[
+export const hero_list=[
   {
     name: 'Abaddon',
     img: 'pub/abaddon.jpg',
