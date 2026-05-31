@@ -32,6 +32,32 @@
     letter-spacing:5px;
 }
 
+.earthling {
+    font-size:12px;
+    text-align:center;
+    color:rgb(9, 134, 118);
+    font-family:'Georgia', serif;
+    text-transform:uppercase;
+    letter-spacing:5px;
+}
+
+.enemy {
+    font-size:12px;
+    text-align:center;
+    color:rgb(165, 228, 18);
+    font-family:'Georgia', serif;
+    text-transform:uppercase;
+    letter-spacing:5px;
+}
+
+.treters {
+    font-size:12px;
+    text-align:center;
+    color:rgb(153, 43, 24);
+    font-family:'Georgia', serif;
+    text-transform:uppercase;
+    letter-spacing:5px;
+}
 
 /* Ячейки*/
 .cell {
