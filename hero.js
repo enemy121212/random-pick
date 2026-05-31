@@ -748,6 +748,11 @@ export const hero_list=[
     img:'pub/windranger.jpg',
     roles:'Soft Support',
     class:'Универсальный'
+  },
+  {
+    name:'Vengeful Spirit',
+    img:'pub/vengeful_spirit.jpg',
+    roles:'Full Support',
+    class:'Ловкость'
   }
   ]
-  
