@@ -22,6 +22,17 @@
     100%{transform:scale(1);}
 }
 
+/* Имена*/
+.credits {
+    font-size:12px;
+    text-align:center;
+    color:rgb(182, 136, 136);
+    font-family:'Georgia', serif;
+    text-transform:uppercase;
+    letter-spacing:5px;
+}
+
+
 /* Ячейки*/
 .cell {
   width: 30%;
