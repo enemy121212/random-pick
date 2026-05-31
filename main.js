@@ -5,6 +5,7 @@ function pickRandomHero() {
     const randomIndex = Math.floor(Math.random() * hero_list.length)
     const randomHero = hero_list[randomIndex]
     document.getElementById("heroResult").textContent = `Ваш случайный герой: ${randomHero.name}`
+    showHeroImage(randomHero.name)
 }
 function generateTeamPick() {
         const pickedHeroes = new Set()
