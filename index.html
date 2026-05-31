@@ -1,35 +1,46 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>рандомный пик</title>
-  </head>
-  <body>
-    <h1>Рандомный пик Dota 2</h1>
-    <div id="teamDisplay"></div>
-    <button id="generateTeamPickButton">Новый пик</button>
-    <button id="randomPickButton">Выбрать случайного героя</button>
-    <p id="heroResult"></p>
-
-
-
-
+<html lang=ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="earthstyle.css">
+</head>
+<body>
     
-    <select id="heroSelector">
-        <option value="">-- Выберите героя --</option>
-        <option value="1">1</option>
-        <option value="2">2</option>
-        <option value="3">3</option>
-        <option value="4">4</option>
-        <option value="5">5</option>
-        <option value="nothing">ничего</option>
 
-    </select>
-    
-    <div id="heroImageContainer">
+    <a class="credits"> Made by: Earthling | Enemy | Treters </a>
+    <h1 class="main-title"> RANDOM PICK DOTA 2 </h1>
+   
+
+
+    <style>
+        body { 
+    background-image: url('https://i.pinimg.com/originals/cd/b7/e6/cdb7e6dd41bb0fdb0a319a72c4f10733.jpg');
+    background-size: cover; 
+    background-position: center; 
+    background-attachment: fixed; 
+    background-repeat: no-repeat; 
+        }
+    </style>
+
+   <div class="menu">
+    <button class="menu-btn" id="randomPickButton">Рандом герой</button>
+    <button class="menu-btn" id="generateTeamPickButton">Рандом пик</button>
+    <button class="menu-btn">Класс</button>
+    <button class="menu-btn">Сохранить</button>
     </div>
 
+    <div class="result_container">
+        <div id="teamDisplay"></div>
+        <p id="heroResult"></p>
+
+        <div id="heroImageContainer">
+        </div>
+    </div>
+
+    <script src="earthmain.js"></script>
+    <script src="hero.js"></script>
     <script src="main.js" type="module"></script>
 </body>
 </html>
-
-
