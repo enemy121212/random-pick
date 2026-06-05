@@ -46,9 +46,6 @@ function showHeroImage(heroName) {
 
     img.alt = `Изображение героя: ${heroName}`;
 
-    img.style.maxWidth = '300px';
-    img.style.height = 'auto';
-    img.style.marginTop = '20px';
 
     img.onerror = function() {
         heroImageContainer.textContent = 'Картинка для этого героя пока недоступна';
