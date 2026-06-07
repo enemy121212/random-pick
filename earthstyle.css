@@ -16,11 +16,25 @@
     animation:pulse 5s infinite;
 }
 
-@keyframes pulse{
-    0%{transform:scale(1);}
-    50%{transform:scale(1.03);}
-    100%{transform:scale(1);}
+.main-title {
+  white-space: nowrap; /* Запрещаем перенос строк */
+  overflow: hidden; /* Скрываем текст, который не помещается */
+  border-right: 3px solid #000; /* Эффект курсора */
+  width: 0; /* Изначально ширина равна 0 */
+  animation: typing 3s steps(15) forwards, blink 0.75s step-end infinite;
 }
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+@keyframes blink {
+  from, to { border-color: transparent }
+  50% { border-color: #000 }
+}
+
+
 
 /* Имена*/
 .credits {
@@ -32,6 +46,32 @@
     letter-spacing:5px;
 }
 
+.earthling {
+    font-size:12px;
+    text-align:center;
+    color:rgb(9, 134, 118);
+    font-family:'Georgia', serif;
+    text-transform:uppercase;
+    letter-spacing:5px;
+}
+
+.enemy {
+    font-size:12px;
+    text-align:center;
+    color:rgb(165, 228, 18);
+    font-family:'Georgia', serif;
+    text-transform:uppercase;
+    letter-spacing:5px;
+}
+
+.treters {
+    font-size:12px;
+    text-align:center;
+    color:rgb(153, 43, 24);
+    font-family:'Georgia', serif;
+    text-transform:uppercase;
+    letter-spacing:5px;
+}
 
 /* Ячейки*/
 .cell {
@@ -112,12 +152,31 @@
     transform: scale(0.96);
     box-shadow: 0 3px 10px rgba(0,0,0,0.2);
 }
+
 .result_container {
-    background: #fff;
-    border-radius: 16px;
-    padding: 16px;
-    color: black;
-    display: flex;
-    gap: 48px;
-    
+  background-color: transparent;
+  font-size: 32px;
+  color: #BF2E1A;
+    font-family:'Georgia', serif;
+    text-transform:uppercase;
+    letter-spacing:5px;
+
+   text-shadow:
+    0 0 5px #BF2E1A,
+    0 0 15px #BF2E1A,
+    2px 2px 0 #000,
+    4px 4px 10px rgba(0,0,0,.8);
+}
+
+#heroImageContainer {
+    position: absolute;
+    margin-top: -80px;
+    margin-left: 1050px;
+    min-height: 100px;
+}
+
+#heroImageContainer img {
+    width: auto;
+    height: auto;
+    object-fit: cover;
 }
